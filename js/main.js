@@ -60,7 +60,7 @@ window.addEventListener('load', function () {
             timeout: 2500,
             icon: false,
             title: hello,
-            message: '欢迎来到我的主页'
+            message: '欢迎来到我的城堡'
         });
     }, 800);
 
@@ -431,5 +431,8 @@ var content = `
 版 本 号：3.3
 更新日期：2022-07-06
 
+主页:  https://www.imsyy.top
+Github:  https://github.com/imsyy/home
+`
 console.log(`%c${title1} %c${title2}
 %c${content}`, styleTitle1, styleTitle2, styleContent)
