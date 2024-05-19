@@ -317,7 +317,7 @@ $('#switchmore').on('click', function () {
     } else {
         $('#container').attr('class', 'container');
         $("#change").html("Hello&nbsp;World&nbsp;!");
-        $("#change1").html("一个建立于 21 世纪的小站，存活于互联网的边缘");
+        $("#change1").html("有些人执着到，擦干眼泪继续爱你，有些人冷静到，权衡轻重地放弃你。");
     }
 });
 
@@ -366,7 +366,7 @@ window.addEventListener('load', function () {
             //移动端隐藏更多页面
             $('#container').attr('class', 'container');
             $("#change").html("Hello&nbsp;World&nbsp;!");
-            $("#change1").html("一个建立于 21 世纪的小站，存活于互联网的边缘");
+            $("#change1").html("有些人执着到，擦干眼泪继续爱你，有些人冷静到，权衡轻重地放弃你。");
 
             //移动端隐藏弹窗页面
             $('#box').css("display", "none");
@@ -418,7 +418,7 @@ color: rgb(244,167,89);
 var styleContent = `
 color: rgb(30,152,255);
 `
-var title1 = '無名の主页'
+var title1 = 'xiao11'
 var title2 = `
  _____ __  __  _______     ____     __
 |_   _|  \\/  |/ ____\\ \\   / /\\ \\   / /
@@ -431,8 +431,5 @@ var content = `
 版 本 号：3.3
 更新日期：2022-07-06
 
-主页:  https://www.imsyy.top
-Github:  https://github.com/imsyy/home
-`
 console.log(`%c${title1} %c${title2}
 %c${content}`, styleTitle1, styleTitle2, styleContent)

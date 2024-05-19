@@ -187,7 +187,7 @@
                                         </div>
                                         <div class="weather">
                                             <span id="city_text">天气</span>&nbsp;
-                                            <span id="wea_text">加载失败</span>&nbsp;
+                                            <span id="wea_text">加载ing</span>&nbsp;
                                             <span id="tem_text">*</span>°C&nbsp;
                                             <span id="win_text"></span>
                                             <span id="win_speed">*</span>级
@@ -311,150 +311,53 @@
                     <!--网站链接-->
                     <div class="row">
                         <div class="col">
-                            <a href="http://www.liuxingyu.icu/index.php/archives/65/" target="_blank">
+                            <a href="https://www.bilibili.com/" target="_blank">
                                 <div class="link-card cards">
-                                    <span class="link-name">AL绘图</span>
+                                    <span class="link-name">BiliBili</span>
                                 </div>
                             </a>
                         </div>
                         <div class="col 2">
-                            <a href="小Y头嘎嘎气人" target="_blank">
+                            <a href="https://www.zhihu.com/hot" target="_blank">
                                 <div class="link-card cards">
-                                    <span class="link-name">小Y头嘎嘎气人</span>
+                                    <span class="link-name">知乎</span>
                                 </div>
                             </a>
                         </div>
                         <div class="col">
-                            <a href="http://www.xiaobaishegongku.site/api/img.php" target="_blank">
+                            <a href="https://www.yuque.com/dashboard" target="_blank">
                                 <div class="link-card cards">
-                                    <span class="link-name">随机图片api</span>
+                                    <span class="link-name">语雀</span>
                                 </div>
                             </a>
                         </div>
                     </div>
                     <div class="row" style="margin-top: 1.5rem;">
                         <div class="col">
-                            <a href="http://www.liuxingyu.icu/index.php/archives/37/" target="_blank">
+                            <a href="https://douban.com/" target="_blank">
                                 <div class="link-card cards">
-                                    <span class="link-name">新拟态生成</span>
+                                    <span class="link-name">豆瓣</span>
                                 </div>
                             </a>
                         </div>
                         <div class="col 2">
-                            <a href="http://www.liuxingyu.icu/index.php/archives/5/" target="_blank">
+                            <a href="https://weibo.com/" target="_blank">
                                 <div class="link-card cards">
-                                    <span class="link-name">iapp常用代码</span>
+                                    <span class="link-name">微博</span>
                                 </div>
                             </a>
                         </div>
                         <div class="col">
-                            <a id="openmore">
+                            <a href="https://iui.su/" target="_blank">
                                 <div class="link-card cards">
-                                    <span class="link-name">听听歌</span>
+                                    <span class="link-name">不死鸟</span>
                                 </div>
                             </a>
                         </div>
                     </div>
                 </div>
                 <!--更多页面-->
-                <div class="box" id="box" style="display: none">
-                    <div class="box-wrapper">
-                        <!--关闭按钮-->
-                        <div class="closebox fixed-top" id="closemore">
-                            <i class="fa-solid fa-circle-xmark"></i>
-                        </div>
-                        <!--左侧内容-->
-                        <div class="box-left">
-                            <div class="img-title">
-                                <span class="img-title-big" id="logo-title-other">liuxingyu</span>
-                                <span class="img-text" id="logo-title-other-small">.icu</span><br>
-                                <span class="img-text">&nbsp;v&nbsp;3.3</span>
-                                <a href="https://github.com/imsyy/home" target="_blank">
-                                    <i class="fa-brands fa-github"></i>
-                                </a>
-                            </div>
-                            <!--更多内容-->
-                            <div class="accordion" id="accordion">
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header" id="headingOne">
-                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                            壁纸设置
-                                        </button>
-                                    </h2>
-                                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordion">
-                                        <div class="accordion-body">
-                                            <div class="set">
-                                                <div class="wallpaper" id="wallpaper">
-                                                    <div class="form-radio">
-                                                        <input type="radio" class="set-wallpaper" style="display: none;" id="radio1" value="1" name="wallpaper-type">
-                                                        <label for="radio1">默认壁纸</label>
-                                                    </div>
-                                                    <div class="form-radio">
-                                                        <input type="radio" class="set-wallpaper" style="display: none;" id="radio2" value="2" name="wallpaper-type">
-                                                        <label for="radio2" id="wallpaper_text1">每日一图</label>
-                                                    </div>
-                                                    <div class="form-radio">
-                                                        <input type="radio" class="set-wallpaper" style="display: none;" id="radio3" value="3" name="wallpaper-type">
-                                                        <label for="radio3" id="wallpaper_text2">随机风景</label>
-                                                    </div>
-                                                    <div class="form-radio">
-                                                        <input type="radio" class="set-wallpaper" style="display: none;" id="radio4" value="4" name="wallpaper-type">
-                                                        <label for="radio4" id="wallpaper_text3">随机动漫</label>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!--更新日志-->
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header" id="headingTwo">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                            更新日志
-                                        </button>
-                                    </h2>
-                                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordion">
-                                        <div class="accordion-body">
-                                            <div class="upnote">
-                                                <span class="uptext">
-                                                    <i class="fa-solid fa-circle-plus"></i>&nbsp;音乐歌单支持快速自定义
-                                                </span>
-                                                <span class="uptext">
-                                                    <i class="fa-solid fa-circle-plus"></i>&nbsp;壁纸支持个性化设置
-                                                </span>
-                                                <span class="uptext">
-                                                    <i class="fa-solid fa-circle-plus"></i>&nbsp;音乐播放器支持音量控制
-                                                </span>
-                                                <span class="uptext">
-                                                    <i class="fa-solid fa-screwdriver-wrench"></i>&nbsp;修复天气 API
-                                                </span>
-                                                <span class="uptext">
-                                                    <i class="fa-solid fa-screwdriver-wrench"></i>&nbsp;时光胶囊显示错误
-                                                </span>
-                                                <span class="uptext">
-                                                    <i class="fa-solid fa-screwdriver-wrench"></i>&nbsp;移动端动画及细节
-                                                </span>
-                                                <span class="uptext">
-                                                    <i class="fa-solid fa-screwdriver-wrench"></i>&nbsp;图标更换为 Font
-                                                    Awesome</span>
-                                                <span class="uptext">
-                                                    <i class="fa-solid fa-rotate-left"></i>
-                                                    <a href="http://www.liuxingyu.icu/" style="color:#efefef">逛逛流星小屋</a>
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--Aplayer-->
-                        <div class="box-right">
-                            <div id="aplayer">
-                                <span>音乐播放器加载失败</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                
             </div>
         </main>
         <!-- 版权信息 -->
@@ -462,9 +365,9 @@
             <div class="power">Copyright&nbsp;©&nbsp;<span id="power-year">2021</span>
                 <script>
                     document.write(' - ' + (new Date()).getFullYear())
-                </script>&nbsp;<a href="http://www.liuxingyu.icu/" id="power-text">◇流星雨﹏√</a>&nbsp;&amp;&nbsp;
+                </script>&nbsp;<a href="https://xiao11.xyz/" id="power-text">xiao11</a>&nbsp;&amp;&nbsp;
                 <!-- 以下信息请不要修改哦 -->
-                Made&nbsp;⚙Theme by&nbsp;<a href="/" target="_blank">imsyy</a>
+                Made&nbsp;⚙Theme by&nbsp;<a href="/" target="_blank">xiao11</a>
 				🔒<a href="https://beian.miit.gov.cn/"></a>
             </div>
             <!-- 歌词显示 -->
